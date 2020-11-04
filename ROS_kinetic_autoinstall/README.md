@@ -2,7 +2,7 @@
 
 
 ## Prerequisites
-Ubuntu 18.04
+Ubuntu 16.04
 
 ## Download this folder
 ``` bash
