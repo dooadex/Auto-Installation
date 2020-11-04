@@ -11,7 +11,7 @@ git clone https://github.com/dooadex/Auto-Installation.git
 ## Install
 ```bash
 cd ~/Auto-Installation/autoware_auto_autoinstall
-bash ./autoinstall.sh
+./autoinstall.sh
 ```
 
 
