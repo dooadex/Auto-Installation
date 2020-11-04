@@ -5,12 +5,12 @@ Ubuntu 18.04
 
 ## Download this folder
 ```bash
-git clone https://github.com/dooadex/AutowareAuto.git
+git clone https://github.com/dooadex/Auto-Installation.git
 ```
 
 ## Install
 ```bash
-cd ~/AutowareAuto/autoware_auto_autoinstall
+cd ~/Auto-Installation/autoware_auto_autoinstall
 bash ./autoinstall.sh
 ```
 
