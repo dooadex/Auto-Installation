@@ -10,13 +10,24 @@ Refer to Apollo Auto official site. (https://github.com/ApolloAuto)
 
 <h2> How to run </h2>
 
+Check wherther you have nvidia-driver or not.
+If you don't have, then follow below.
+
+```bash
+sudo lshw -C display
+ubuntu-drivers devices
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt-get install nvidia-driver-<recommended>
+```
+
 At ${HOME}
 
 ``` bash
 git clone https://github.com/dooadex/Auto-Installation.git
 cd Auto-Installation/apollo5.5_autoinstall/
 ./install_pre-requisites.sh
-reboot
+sudo reboot now
 ./install_apollo5.5.sh
 ```
 
