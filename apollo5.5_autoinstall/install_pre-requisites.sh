@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_path=&{HOME}/Auto-Installation/apollo5.5_autoinstall
+file_path=${HOME}/Auto-Installation/apollo5.5_autoinstall
 
 sudo apt-get update
 sudo apt-get upgrade
@@ -14,10 +14,5 @@ bash ${file_path}/install_nvidia_container_toolkit.sh
 
 sudo usermod -a -G docker $USER
 sudo service docker restart
-
-sudo reboot now
-
-bash ${file_path}/install_apollo5.5.sh
-
 
 
